@@ -1,0 +1,11 @@
+@use 'styles/background';
+@use 'styles/text';
+
+.container {
+  @include background.green99-background;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}

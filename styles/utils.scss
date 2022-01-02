@@ -1,0 +1,29 @@
+@mixin desktop {
+  @media screen and (min-width: 992px) {
+    @content;
+  }
+}
+@mixin mobile {
+  @media screen and (max-width: 992px) {
+    @content;
+  }
+}
+
+/* COLORS */
+$scroll_bar: 15px;
+$c_light_blue: rgb(125, 214, 246);
+$c_medium_blue: rgb(27, 167, 236);
+$c_dark_blue: rgb(30, 57, 152);
+$c_teal: rgb(88, 222, 222);
+$c_grey: rgb(215, 216, 214);
+$c_purple: rgb(121, 126, 246);
+$c_light_purple: rgba(121, 126, 246, 0.5);
+$c_white: rgb(242, 242, 242);
+$c_black: rgb(0, 0, 0);
+
+/*
+POSITIONING
+BOX MODEL
+TYPOGRAPHY
+VISUAL
+*/

@@ -1,0 +1,10 @@
+@use 'styles/background';
+
+.container {
+  @include background.white-background;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}

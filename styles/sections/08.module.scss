@@ -1,0 +1,21 @@
+@use 'styles/background';
+@use 'styles/text';
+
+.container {
+  @include background.white-background;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.header {
+  font-weight: 700;
+  // font-size: 40pt;
+  // line-height: 48pt;
+}
+
+.description {
+  // @include text.description;
+}

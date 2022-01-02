@@ -1,0 +1,18 @@
+@use 'styles/background';
+@use 'styles/text';
+
+.container {
+  @include background.white-background;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.spaceLeft {
+  margin: 0em 0em 0em 1em;
+}
+.spaceRight {
+  margin: 0em 1em 0em 0em;
+}
