@@ -6,10 +6,10 @@ const S02 = () => {
   return (
     <div className={styles.container}>
       <Row>
-        <Col xs={{ size: 6, offset: 3 }}>
-          <h1>
-            SOUTHEAST ASIA
-          </h1>
+        <h1 className={styles.header}>
+          SOUTHEAST ASIA
+        </h1>
+        <Col xs={{ size: 8, offset: 2 }}>
           <object type="image/svg+xml" data="sections/02/stats-1.svg"/>
         </Col>
       </Row>

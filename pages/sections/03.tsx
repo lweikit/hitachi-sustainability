@@ -6,7 +6,7 @@ const S03 = () => {
   return (
     <div className={styles.container}>
       <Row>
-        <Col xs={{ size: 6, offset: 3 }}>
+        <Col xs={{ size: 8, offset: 2 }} md={{ size: 6, offset: 3 }}>
           <p>
             This is a worrying development given the region’s overwhelming dependence on non-renewable sources for primary energy supply.
           </p>

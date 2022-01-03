@@ -1,11 +1,14 @@
 @use 'styles/background';
 
 .container {
-  // height: 30em;
-  @include background.green66-background;
+  @include background.green-gradient-background;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+}
+
+.containerText{
+  text-align: left;
 }

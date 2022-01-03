@@ -1,4 +1,49 @@
+@use 'styles/utils';
+
 @mixin description {
-  font-size: 20pt;
-  line-height: 28pt;
+  @include utils.desktop {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  @include utils.mobile {
+    font-size: 12pt;
+    line-height: 18pt;
+  }
+}
+
+@mixin h1-title {
+  font-weight: 900;
+  @include utils.desktop {
+    font-size: 100px;
+    line-height: 100px;
+    text-shadow: 1px 0;
+  }
+  @include utils.mobile {
+    font-size: 30pt;
+    line-height: 32pt;
+  }
+}
+
+@mixin h2-title {
+  font-weight: 600;
+  @include utils.desktop {
+    font-size: 48px;
+    line-height: 54px;
+  }
+  @include utils.mobile {
+    font-size: 24pt;
+    line-height: 30pt;
+  }
+}
+
+@mixin h3-title {
+  font-weight: 600;
+  @include utils.desktop {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  @include utils.mobile {
+    font-size: 24pt;
+    line-height: 30pt;
+  }
 }

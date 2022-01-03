@@ -1,5 +1,5 @@
 @use 'styles/background';
-@use 'styles/text';
+@use 'styles/utils';
 
 .container {
   @include background.white-background;
@@ -10,9 +10,7 @@
   text-align: left;
 }
 
-.spaceLeft {
-  margin: 0em 0em 0em 1em;
-}
-.spaceRight {
-  margin: 0em 1em 0em 0em;
+.spacing {
+  @include utils.desktop { padding: 1.5em 3em; }
+  @include utils.mobile { padding: .5em 3em; }
 }

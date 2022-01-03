@@ -6,19 +6,19 @@ const S05 = () => {
   return (
     <div className={styles.container}>
       <Row>
-        <Col xs={{ size: 6, offset: 3 }}>
+        <Col xs={{ size: 8, offset: 2 }}>
           <Row>
-            <Col>
-              <h1>
+            <Col className={styles.spacing}>
+              <h2>
                 Efforts for sustainability in Southeast Asia
-              </h1>
+              </h2>
             </Col>
-            <Col>
+            <Col className={styles.spacing}>
               
             </Col>
           </Row>
           <Row>
-            <Col className={styles.spaceRight}>
+            <Col md={{ size: 12 }} lg={{ size: 6 }} className={styles.spacing}>
               <p>
                 Having recognised climate change as a regional threat, all ASEAN nations signed the Paris Agreement. ASEAN followed up with a target of securing 23% of the region’s primary energy from renewable sources by 2025.
               </p>
@@ -29,7 +29,7 @@ const S05 = () => {
                 There are multiple ways to unlock the region’s green economy. Transitioning from non-renewable energy into sustainable sources is an ongoing endeavour. Governments in Southeast Asia have prioritised solar power to displace fossil fuel in the most recent development plans – in particular, with rooftop solar power.
               </p>
             </Col>
-            <Col className={styles.spaceLeft}>
+            <Col md={{ size: 12 }} lg={{ size: 6 }} className={styles.spacing}>
               <p>
                 Improving a nation’s logistics sector to become more efficient plays a key role as well. Digital supply chains, paired with automation and analytics, can help to lower carbon footprints.
               </p>

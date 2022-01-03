@@ -1,8 +1,9 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.scss'
 
+import S01 from './sections/01'
 import S02 from './sections/02'
 import S03 from './sections/03'
 import S04 from './sections/04'
@@ -12,6 +13,7 @@ import S07 from './sections/07'
 import S08 from './sections/08'
 import S09 from './sections/09'
 import S10 from './sections/10'
+import S11 from './sections/11'
 
 const Home: NextPage = () => {
   return (
@@ -23,6 +25,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
+        <S01 />
         <S02 />
         <S03 />
         <S04 />
@@ -32,7 +35,7 @@ const Home: NextPage = () => {
         <S08 />
         <S09 />
         <S10 />
-        
+        <S11 />
       </main>
 
       <footer className={styles.footer}>

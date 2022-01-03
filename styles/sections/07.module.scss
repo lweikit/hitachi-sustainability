@@ -1,11 +1,21 @@
 @use 'styles/background';
-@use 'styles/text';
+@use 'styles/utils';
 
 .container {
-  @include background.green66-background;
+  @include utils.desktop {
+    @include background.green66-background;
+  }
+  @include utils.mobile {
+    @include background.white-background;
+  }
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: left;
+}
+
+.spacing {
+  @include utils.desktop { padding: 3em 3em; }
+  @include utils.mobile { padding: .5em 3em; }
 }

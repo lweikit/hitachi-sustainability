@@ -1,7 +1,13 @@
 @use 'styles/background';
+@use 'styles/utils';
 
 .container {
-  @include background.white-background;
+  @include utils.desktop {
+    @include background.white-background;
+  }
+  @include utils.mobile {
+    @include background.green99-background;
+  }
 
   display: flex;
   flex-direction: column;

@@ -1,21 +1,16 @@
 @use 'styles/background';
-@use 'styles/text';
+@use 'styles/utils';
 
 .container {
-  @include background.white-background;
+  @include utils.desktop {
+    @include background.white-background;
+  }
+  @include utils.mobile {
+    @include background.green66-background;
+  }
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-}
-
-.header {
-  font-weight: 700;
-  // font-size: 40pt;
-  // line-height: 48pt;
-}
-
-.description {
-  // @include text.description;
 }

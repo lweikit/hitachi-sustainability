@@ -1,15 +1,33 @@
+@use 'styles/text';
+
 .container {
   padding: 0 0rem;
 }
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
+  padding: 0em;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.main p {
+  @include text.description;
+}
+
+.main h1 {
+  @include text.h1-title;
+}
+
+.main h2 {
+  @include text.h2-title;
+}
+
+.main h3 {
+  @include text.h3-title;
 }
 
 .footer {
