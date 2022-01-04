@@ -6,13 +6,13 @@ const S06 = () => {
   return (
     <div className={styles.container}>
       <Row>
-        <Col xs={{ size: 4, offset: 4 }}>
+        <Col xs={{ size: 8, offset: 2 }} md={{ size: 4, offset: 4 }}>
           <h1 className={styles.header}>
             ASEAN
           </h1>
           <Row>
-            <Col xs={{ size: 12 }} md={{ size: 8, offset: 2 }}>
-              <p>
+            <Col>
+              <p className={styles.description}>
                 pledges to secure 23% of the region’s primary energy from renewable sources by 2025
               </p>
             </Col>

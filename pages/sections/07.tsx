@@ -6,12 +6,17 @@ const S07 = () => {
   return (
     <div className={styles.container}>
       <Row>
-        <Col xs={{ size: 8, offset: 2 }}>
+        <Col xs={{ size: 10, offset: 1 }} md={{ size: 8, offset: 2 }}>
           <Row>
             <Col xs={{ size: 12 }} md={{ size: 6 }} className={styles.spacing}>
               <h2>
                 Hitachi is commited to supporting Southeast Asia’s sustainability efforts
               </h2>
+              <Row>
+                <Col xs={{ size: 6 }}>
+                  <object type="image/svg+xml" data="sections/07/hands.svg"/>
+                </Col>
+              </Row>
             </Col>
             <Col xs={{ size: 12 }} md={{ size: 6 }} className={styles.spacing}>
               <p>
@@ -19,7 +24,12 @@ const S07 = () => {
               </p>
               <p>
                 Below are three examples of how Hitachi’s technological offerings make difference:
-              </p> 
+              </p>
+              <Row>
+                <Col xs={{ size: 3 }}>
+                  <object type="image/svg+xml" data="sections/07/arrows.svg"/> 
+                </Col>
+              </Row>
             </Col>
           </Row>
         </Col>

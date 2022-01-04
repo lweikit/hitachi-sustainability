@@ -6,7 +6,7 @@ const S11 = () => {
   return (
     <div className={styles.container}>
       <Row>
-        <Col xs={{ size: 6, offset: 3 }}>
+        <Col xs={{ size: 10, offset: 1 }} md={{ size: 6, offset: 3 }}>
           <h3>
             Want to find out more?
           </h3>

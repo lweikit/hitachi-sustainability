@@ -6,19 +6,23 @@ const S05 = () => {
   return (
     <div className={styles.container}>
       <Row>
-        <Col xs={{ size: 8, offset: 2 }}>
+        <Col xs={{ size: 10, offset: 1 }} md={{ size: 8, offset: 2 }}>
           <Row>
-            <Col className={styles.spacing}>
+            <Col xs={{ size: 12 }} md={{ size: 6 }} className={styles.spacing}>
               <h2>
                 Efforts for sustainability in Southeast Asia
               </h2>
             </Col>
-            <Col className={styles.spacing}>
-              
+            <Col xs={{ size: 12 }} md={{ size: 6 }} className={styles.spacing}>
+              <Row>
+                <Col xs={{ size: 6 }}>
+                  <object type="image/svg+xml" data="sections/05/plug.svg"/>
+                </Col>
+              </Row>
             </Col>
           </Row>
           <Row>
-            <Col md={{ size: 12 }} lg={{ size: 6 }} className={styles.spacing}>
+            <Col xs={{ size: 12 }} md={{ size: 6 }} className={styles.spacing}>
               <p>
                 Having recognised climate change as a regional threat, all ASEAN nations signed the Paris Agreement. ASEAN followed up with a target of securing 23% of the region’s primary energy from renewable sources by 2025.
               </p>
@@ -29,7 +33,7 @@ const S05 = () => {
                 There are multiple ways to unlock the region’s green economy. Transitioning from non-renewable energy into sustainable sources is an ongoing endeavour. Governments in Southeast Asia have prioritised solar power to displace fossil fuel in the most recent development plans – in particular, with rooftop solar power.
               </p>
             </Col>
-            <Col md={{ size: 12 }} lg={{ size: 6 }} className={styles.spacing}>
+            <Col xs={{ size: 12 }} md={{ size: 6 }} className={styles.spacing}>
               <p>
                 Improving a nation’s logistics sector to become more efficient plays a key role as well. Digital supply chains, paired with automation and analytics, can help to lower carbon footprints.
               </p>

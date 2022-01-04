@@ -13,10 +13,12 @@
 
 @mixin h1-title {
   font-weight: 900;
+  // text-shadow: 1px 0;
   @include utils.desktop {
+    // font-size: 3.5rem;
+    // line-height: 3.5rem;
     font-size: 100px;
     line-height: 100px;
-    text-shadow: 1px 0;
   }
   @include utils.mobile {
     font-size: 30pt;

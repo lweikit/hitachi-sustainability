@@ -18,6 +18,7 @@
 }
 
 .header {
+  line-height: 1.2;
   @include utils.desktop { 
     font-size: 120px !important; 
   }

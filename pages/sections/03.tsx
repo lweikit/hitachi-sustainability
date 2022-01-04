@@ -7,6 +7,7 @@ const S03 = () => {
     <div className={styles.container}>
       <Row>
         <Col xs={{ size: 8, offset: 2 }} md={{ size: 6, offset: 3 }}>
+          <object type="image/svg+xml" data="sections/03/water.svg" className={styles.svg}/>
           <p>
             This is a worrying development given the region’s overwhelming dependence on non-renewable sources for primary energy supply.
           </p>

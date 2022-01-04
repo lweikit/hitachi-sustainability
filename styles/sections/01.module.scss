@@ -1,4 +1,5 @@
 @use 'styles/background';
+@use 'styles/utils';
 
 .container {
   @include background.green-gradient-background;
@@ -9,6 +10,19 @@
   text-align: center;
 }
 
-.containerText{
+.line {
+  margin: 3rem auto;
+  width: 80vw;
+  background-color: #6dff40;
+
+  @include utils.desktop {
+    height: 5px;
+  }
+  @include utils.mobile {
+    height: 2px;
+  }
+}
+
+.containerText {
   text-align: left;
 }

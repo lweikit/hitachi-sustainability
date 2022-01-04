@@ -1,11 +1,14 @@
 @use 'styles/background';
 
 .container {
-  // height: 30em;
   @include background.green66-background;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+}
+
+.svg {
+  width: 100px;
 }

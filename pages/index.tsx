@@ -1,19 +1,21 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.scss'
 
-import S01 from './sections/01'
-import S02 from './sections/02'
-import S03 from './sections/03'
-import S04 from './sections/04'
-import S05 from './sections/05'
-import S06 from './sections/06'
-import S07 from './sections/07'
-import S08 from './sections/08'
-import S09 from './sections/09'
-import S10 from './sections/10'
-import S11 from './sections/11'
+import { 
+  S01,
+  S02,
+  S03,
+  S04,
+  S05,
+  S06,
+  S07,
+  S08,
+  S09,
+  S10, 
+  S11,
+} from './sections'
+import styles from '../styles/Home.module.scss'
 
 const Home: NextPage = () => {
   return (

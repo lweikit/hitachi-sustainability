@@ -6,7 +6,7 @@ const S10 = () => {
   return (
     <div className={styles.container}>
       <Row>
-        <Col md={{ size: 6, offset: 3 }}>
+        <Col xs={{ size: 10, offset: 1 }} md={{ size: 6, offset: 3 }}>
           <h3>
             Using big data analytics in Singapore
           </h3>
@@ -21,9 +21,11 @@ const S10 = () => {
               <p>
                 Go-Ahead Singapore has stepped up by turning to big data analytics to optimise its operations. Hitachi supported Go-Ahead Singapore in measuring and improving their bus operation efficiency through the development and maintenance of a customised big data analytics web portal. This enabled scheduling staff to swiftly identify issues and resolve them promptly. Paired with accurate traffic data, Go-Ahead is able to deploy their buses more effectively. This reduces bus idling time in congested streets and lower vehicle exhaust emissions.
               </p>
-              <div>
-                Animation
-              </div>
+              <Row>
+                <Col xs={{ size: 8, offset: 2 }}>
+                  <object type="image/svg+xml" data="sections/10/case-3.svg"/>
+                </Col>
+              </Row>
             </Col>
           </Row>
         </Col>

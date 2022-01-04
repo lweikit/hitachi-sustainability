@@ -6,7 +6,7 @@ const S08 = () => {
   return (
     <div className={styles.container}>
       <Row>
-        <Col md={{ size: 6, offset: 3 }}>
+        <Col xs={{ size: 10, offset: 1 }} md={{ size: 6, offset: 3 }}>
           <h3>
             Vehicle sharing service in Thailand
           </h3>
@@ -18,9 +18,11 @@ const S08 = () => {
               <p className={styles.description}>
                 Thailand’s delivery market was projected to grow by 35% in 2020 due to the rapid growth of e-commerce. Such rapid growth has serious implications for sustainability efforts, as the transport sector accounts for the second largest emission of greenhouse gases. To mitigate the environmental impacts, Hitachi has launched a vehicle sharing service in Thailand. The launch of its live-tracking system will enable companies to locate and reserve vehicles to reduce the number of empty trucks on Thai roads. An optimised logistics system means lower carbon emissions in Thailand, a direct contribution to the decarbonisation goals of COP26.
               </p>
-              <div>
-                Animation
-              </div>
+              <Row>
+                <Col xs={{ size: 8, offset: 2 }}>
+                  <object type="image/svg+xml" data="sections/08/case-1.svg"/>
+                </Col>
+              </Row>
             </Col>
           </Row>
         </Col>
