@@ -20,6 +20,19 @@ a {
 * {
   box-sizing: border-box;
 }
+// .overlay:after {
+//   content: '';
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+//   background-image: url(../public/sections/02/map-full-size.svg);
+//   background-size: 25%;
+//   background-position: center;
+//   background-attachment: fixed;
+//   background-repeat: no-repeat;
+// }
 .video-container {
   margin: 2em 0em;
   position:relative;

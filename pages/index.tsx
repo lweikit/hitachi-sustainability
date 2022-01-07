@@ -14,7 +14,7 @@ import {
   S09,
   S10, 
   S11,
-} from './sections'
+} from '../sections'
 import styles from '../styles/Home.module.scss'
 
 const Home: NextPage = () => {

@@ -1,4 +1,4 @@
-import styles from '../../styles/sections/11.module.scss'
+import styles from '../styles/sections/11.module.scss'
 
 import { Row, Col } from 'reactstrap'
 
