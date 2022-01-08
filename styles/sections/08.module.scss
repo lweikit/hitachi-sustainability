@@ -1,5 +1,5 @@
-@use 'styles/background';
-@use 'styles/utils';
+@use "styles/background";
+@use "styles/utils";
 
 .container {
   @include utils.desktop {
@@ -9,8 +9,5 @@
     @include background.green66-background;
   }
 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
+  @include utils.center-all;
 }

@@ -1,12 +1,10 @@
-@use 'styles/background';
+@use "styles/background";
+@use "styles/utils";
 
 .container {
   @include background.green66-background;
 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
+  @include utils.center-all;
 }
 
 .svg {

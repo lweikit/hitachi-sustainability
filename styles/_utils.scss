@@ -1,0 +1,28 @@
+@mixin desktop {
+  @media screen and (min-width: 768px) {
+    @content;
+  }
+}
+@mixin mobile {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
+@mixin center-all {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+/* COLORS */
+$c_green_66: #006600;
+$c_green_99: #009900;
+$c_green_line: #6dff40;
+
+/*
+POSITIONING
+BOX MODEL
+TYPOGRAPHY
+VISUAL
+*/

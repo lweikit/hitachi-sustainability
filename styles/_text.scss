@@ -1,16 +1,5 @@
 @use 'styles/utils';
 
-@mixin description {
-  @include utils.desktop {
-    font-size: 20px;
-    line-height: 28px;
-  }
-  @include utils.mobile {
-    font-size: 12pt;
-    line-height: 18pt;
-  }
-}
-
 @mixin h1-title {
   font-weight: 900;
   // text-shadow: 1px 0;
@@ -47,5 +36,16 @@
   @include utils.mobile {
     font-size: 24pt;
     line-height: 30pt;
+  }
+}
+
+@mixin description {
+  @include utils.desktop {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  @include utils.mobile {
+    font-size: 12pt;
+    line-height: 18pt;
   }
 }

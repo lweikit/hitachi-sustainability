@@ -1,15 +1,12 @@
-@use 'styles/background';
-@use 'styles/utils';
+@use "styles/background";
+@use "styles/utils";
 
 .container {
   @include background.padding-vertical;
   color: white;
   width: 100%;
 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
+  @include utils.center-all;
 }
 
 .bg {

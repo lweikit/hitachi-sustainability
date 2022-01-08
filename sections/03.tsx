@@ -1,6 +1,6 @@
-import styles from '../styles/sections/03.module.scss'
+import styles from "../styles/sections/03.module.scss"
 
-import { Row, Col } from 'reactstrap'
+import { Row, Col } from "reactstrap"
 
 const S03 = () => {
   return (

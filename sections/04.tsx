@@ -1,4 +1,4 @@
-import styles from '../styles/sections/04.module.scss'
+import styles from "../styles/sections/04.module.scss"
 
 const S04 = () => {
   return (

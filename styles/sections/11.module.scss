@@ -1,19 +1,16 @@
-@use 'styles/background';
-@use 'styles/utils';
+@use "styles/background";
+@use "styles/utils";
 
 .container {
   @include background.green66-background;
   width: 100%;
 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
+  @include utils.center-all;
 }
 
 .box {
   margin: 1em 0;
-  background-color: #009900;
+  background-color: utils.$c_green_99;
   @include utils.desktop {
     height: 100px;
   }

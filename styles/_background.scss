@@ -1,3 +1,5 @@
+@use "styles/utils";
+
 @mixin padding-vertical {
   padding: 3em 0em;
 }
@@ -6,8 +8,8 @@
   @include padding-vertical;
 
   background-image: linear-gradient(
-    #006600,
-    #009900
+    utils.$c_green_66,
+    utils.$c_green_99
   );
   color: white;
 }
@@ -15,14 +17,14 @@
 @mixin green66-background {
   @include padding-vertical;
 
-  background-color: #006600;
+  background-color: utils.$c_green_66;
   color: white;
 }
 
 @mixin green99-background {
   @include padding-vertical;
 
-  background-color: #009900;
+  background-color: utils.$c_green_99;
   color: white;
 }
 
@@ -30,5 +32,5 @@
   @include padding-vertical;
   
   background-color: white;
-  color: #006600;
+  color: utils.$c_green_66;
 }

@@ -1,19 +1,16 @@
-@use 'styles/background';
-@use 'styles/utils';
+@use "styles/background";
+@use "styles/utils";
 
 .container {
   @include background.green-gradient-background;
 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
+  @include utils.center-all;
 }
 
 .line {
   margin: 3rem auto;
   width: 80vw;
-  background-color: #6dff40;
+  background-color: utils.$c_green_line;
 
   @include utils.desktop {
     height: 5px;

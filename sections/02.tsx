@@ -1,12 +1,11 @@
-import styles from '../styles/sections/02.module.scss'
+import styles from "../styles/sections/02.module.scss"
 
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef } from "react";
 
 gsap.registerPlugin(ScrollTrigger);
 ScrollTrigger.defaults({
-  // markers: true,
   pin: true,
   pinSpacing: false,
   scrub: 1,
@@ -16,7 +15,7 @@ const S02 = () => {
   // store a reference to the box div
   const containerRef = useRef<HTMLDivElement>(null);
   const headerRef = useRef<HTMLDivElement>(null);
-  const bgContainerRef = useRef<HTMLDivElement>(null);
+  const bgRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<HTMLObjectElement>(null);
   const stats1Ref = useRef<HTMLObjectElement>(null);
   const stats2Ref = useRef<HTMLObjectElement>(null);
@@ -27,11 +26,11 @@ const S02 = () => {
     gsap.timeline({
       scrollTrigger: {
         trigger: containerRef.current,
-        end: '+=100%',
+        end: "+=100%",
       }
     })
     .from(headerRef.current, {
-      top: `30%`,
+      top: `40%`,
     })
     .from(mapRef.current, {
       top: `50%`,
@@ -66,7 +65,7 @@ const S02 = () => {
       <h1 className={styles.header} ref={headerRef}>
         SOUTHEAST ASIA
       </h1>
-      <div className={styles.bg} ref={bgContainerRef}>
+      <div className={styles.bg} ref={bgRef}>
         <object type="image/svg+xml" data="sections/02/map-full-size.svg" className={styles.map} ref={mapRef}/>
         <object type="image/svg+xml" data="sections/02/stats-1.svg" className={styles.stats} ref={stats1Ref}/>
         <object type="image/svg+xml" data="sections/02/stats-2.svg" className={styles.stats} ref={stats2Ref}/>
