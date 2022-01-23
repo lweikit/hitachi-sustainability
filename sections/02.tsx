@@ -39,7 +39,7 @@ const S02 = () => {
       marginLeft: `-12.5%`,
       width: `25%`,
       height: `25%`,
-    })
+    }, "<")
     .to(mapRef.current, {
       opacity: 0.15,
     })

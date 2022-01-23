@@ -11,13 +11,9 @@ const S06 = () => {
           <h1 className={styles.header}>
             ASEAN
           </h1>
-          <Row>
-            <Col>
-              <p className={styles.description}>
-                pledges to secure 23% of the region’s primary energy from renewable sources by 2025
-              </p>
-            </Col>
-          </Row>
+          <p className={styles.description}>
+            pledges to secure 23% of the region’s primary energy from renewable sources by 2025
+          </p>
         </Col>
       </Row>
     </div>

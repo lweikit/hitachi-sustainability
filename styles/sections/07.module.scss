@@ -16,6 +16,10 @@
 }
 
 .spacing {
-  @include utils.desktop { padding: 3em 3em; }
-  @include utils.mobile { padding: .5em 3em; }
+  @include utils.desktop { 
+    padding: 3em 3em; 
+  }
+  @include utils.mobile { 
+    padding: .5em 3em; 
+  }
 }
