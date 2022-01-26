@@ -10,9 +10,9 @@
 
 .cardWrap {
   @include utils.center-all;
-  margin: auto;
   padding: 2em 0em;
   row-gap: 1.5rem;
+
   @include utils.desktop {
     width: 50%;
   }

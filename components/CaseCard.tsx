@@ -35,6 +35,7 @@ const ContentWrap = styled.div<{ background: string }>`
   height: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
   text-align: center;
   background-image: ${({ background }) => `url(${background})`};
