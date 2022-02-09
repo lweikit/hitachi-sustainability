@@ -35,7 +35,7 @@ const caseConfigs = [
   },
   {
     description: 'Battery Energy Storage System in the Philippines',
-    href: 'https://www.eqmagpro.com/meralco-hitachi-set-up-2-mw-battery-energy-storage-system/',
+    href: 'https://social-innovation.hitachi/en-sg/solutions/energy/',
     img: 'sections/11/battery-energy-storage-PH.png'
   },
   {

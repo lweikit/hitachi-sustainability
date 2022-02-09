@@ -28,6 +28,10 @@ const CaseCardStyled = styled.a`
   width: 100%;
   height: 300px;
   display: flex;
+
+  :hover {
+    color: #009900;
+  }
 `;
 
 const ContentWrap = styled.div<{ background: string }>`

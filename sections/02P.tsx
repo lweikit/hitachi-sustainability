@@ -11,12 +11,12 @@ ScrollTrigger.defaults({
   scrub: 1,
 })
 
-const S02 = () => {
+const S02P = () => {
   // store a reference to the box div
   const containerRef = useRef<HTMLDivElement>(null);
   const headerRef = useRef<HTMLDivElement>(null);
   const bgRef = useRef<HTMLDivElement>(null);
-  const mapRef = useRef<HTMLObjectElement>(null);
+  const scene0Ref = useRef<HTMLObjectElement>(null);
   const stats1Ref = useRef<HTMLObjectElement>(null);
   const stats2Ref = useRef<HTMLObjectElement>(null);
   const stats3Ref = useRef<HTMLObjectElement>(null);
@@ -29,50 +29,42 @@ const S02 = () => {
         end: "+=100%",
       }
     })
+    .to(scene0Ref.current,{
+      opacity: 0,
+    })
     .from(headerRef.current, {
-      top: `40%`,
-    })
-    .from(mapRef.current, {
-      top: `50%`,
-      marginTop: `-12.5%`,
-      left: `50%`,
-      marginLeft: `-12.5%`,
-      width: `25%`,
-      height: `25%`,
-    }, "<")
-    .to(mapRef.current, {
-      opacity: 0.15,
-    })
+      top: `25%`,
+    }, "<1")
     .from(stats1Ref.current, {
       opacity: 0,
     })
     .to(stats1Ref.current, {
       opacity: 0,
-    })
+    }, "<2")
     .from(stats2Ref.current, {
       opacity: 0,
     })
     .to(stats2Ref.current, {
       opacity: 0,
-    })
+    }, "<2")
     .from(stats3Ref.current, {
       opacity: 0,
     })
   });
 
   return (
-    <div className={styles.container} ref={containerRef}>
+    <div className={`${styles.container} ${styles.section2p}`} ref={containerRef}>
       <h1 className={styles.header} ref={headerRef}>
         SOUTHEAST ASIA
       </h1>
       <div className={styles.bg} ref={bgRef}>
-        <object type="image/svg+xml" data="sections/02/map-full-size.svg" className={styles.map} ref={mapRef}/>
-        <object type="image/svg+xml" data="sections/02/stats-1.svg" className={styles.stats} ref={stats1Ref}/>
-        <object type="image/svg+xml" data="sections/02/stats-2.svg" className={styles.stats} ref={stats2Ref}/>
-        <object type="image/svg+xml" data="sections/02/stats-3.svg" className={styles.stats} ref={stats3Ref}/>
+        <object type="image/svg+xml" data="sections/02/scene-0-mobile.svg" className={styles.scene} ref={scene0Ref}/>
+        <object type="image/svg+xml" data="sections/02/stats-1-mobile.svg" className={styles.stats} ref={stats1Ref}/>
+        <object type="image/svg+xml" data="sections/02/stats-2-mobile.svg" className={styles.stats} ref={stats2Ref}/>
+        <object type="image/svg+xml" data="sections/02/stats-3-mobile.svg" className={styles.stats} ref={stats3Ref}/>
       </div>
     </div>
   )
 }
 
-export default S02
+export default S02P

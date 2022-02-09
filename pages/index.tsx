@@ -3,7 +3,8 @@ import Head from 'next/head'
 
 import { 
   S01,
-  S02,
+  S02L,
+  S02P,
   S03,
   S04,
   S05,
@@ -27,7 +28,8 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <S01 />
-        <S02 />
+        <S02L />
+        <S02P />
         <S03 />
         <S04 />
         <S05 />

@@ -1,5 +1,6 @@
 export { default as S01 } from "./01"
-export { default as S02 } from "./02"
+export { default as S02L } from "./02L"
+export { default as S02P } from "./02P"
 export { default as S03 } from "./03"
 export { default as S04 } from "./04"
 export { default as S05 } from "./05"

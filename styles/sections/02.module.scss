@@ -32,32 +32,48 @@
   height: 100vh;
 }
 
-.map {
+.scene {
   position: absolute;
   top: 0%;
   left: 0%;
   width: 100%;
   height: 100%;
-  z-index: -1;
+  z-index: 1;
 }
 
 .stats {
   position: absolute;
   z-index: 1;
   @include utils.desktop {
-    top: 50%;
-    margin-top: -15%;
+    bottom: 10%;
     left: 50%;
     margin-left: -33.3%;;
     width: 66.6%;
     height: 66.6%;
   }
   @include utils.mobile {
-    top: 50%;
-    margin-top: -65%;
+    bottom: 0%;
     left: 50%;
-    margin-left: -40%;;
-    width: 80%;
-    height: 80%;
+    margin-left: -50%;;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.section2l {
+  @media (orientation: landscape) {
+    display: block;
+  }
+  @media (orientation: portrait) {
+    display: none;
+  }
+}
+
+.section2p {
+  @media (orientation: landscape) {
+    display: none;
+  }
+  @media (orientation: portrait) {
+    display: block;
   }
 }

@@ -11,7 +11,7 @@ const S08 = () => {
             Vehicle sharing service in Thailand
           </h3>
           <div className="video-container">
-            <iframe src="https://www.youtube-nocookie.com/embed/jXPTUd_l5YU" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            <iframe src="https://www.youtube-nocookie.com/embed/6TXWI5k06nw" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
           </div>
           <Row>
             <Col sm={{ size: 10, offset: 1 }} md={{ size: 12, offset: 0 }}>
