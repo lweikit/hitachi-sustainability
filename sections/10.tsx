@@ -8,7 +8,7 @@ const S10 = () => {
       <Row>
         <Col xs={{ size: 10, offset: 1 }} md={{ size: 6, offset: 3 }}>
           <h3>
-            Using big data analytics in Singapore
+            Using Big Data Analytics in Singapore
           </h3>
           <div className="video-container">
             <iframe src="https://www.youtube-nocookie.com/embed/J-Myvrbz0f8" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>

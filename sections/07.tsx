@@ -10,7 +10,7 @@ const S07 = () => {
           <Row>
             <Col xs={{ size: 12 }} md={{ size: 6 }} className={styles.spacing}>
               <h2>
-                Hitachi is commited to supporting Southeast Asia’s sustainability efforts
+                Hitachi Is Committed to Supporting Southeast Asia’s Sustainability Efforts
               </h2>
               <Row>
                 <Col xs={{ size: 6 }}>

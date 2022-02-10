@@ -37,7 +37,7 @@ const S01 = () => {
                 </Col>
               </Row>
               <h2>
-                Climate change challenges of Southeast Asia
+                Climate Change Challenges of Southeast Asia
               </h2>
             </Col>
             <Col xs={{ size: 12 }} md={{ size: 6 }}>

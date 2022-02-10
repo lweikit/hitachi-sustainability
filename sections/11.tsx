@@ -30,7 +30,7 @@ const S11 = () => {
 const caseConfigs = [
   {
     description: 'Vehicle-sharing Service in Thailand',
-    href: 'https://www.eqmagpro.com/meralco-hitachi-set-up-2-mw-battery-energy-storage-system/',
+    href: 'https://social-innovation.hitachi/en-sg/innovationhub/reduce-carbon-emissions',
     img: 'sections/11/vehicle-sharing-TH.png'
   },
   {
