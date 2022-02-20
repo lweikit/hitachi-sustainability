@@ -11,13 +11,13 @@ const S01 = () => {
         </Col>
         <Col xs={{ size: 10, offset: 1 }} md={{ size: 8, offset: 2 }}>
           <h1>
-            SUSTAINABILITY MATTERS IN SOUTHEAST ASIA
+            สถานการณ์ด้านความยั่งยืนในภูมิภาคเอเชียตะวันออกเฉียงใต้
           </h1>
           <br/>
           <Row>
             <Col md={{ size: 10, offset: 1 }}>
               <p>
-                Southeast Asia remains poised to be one of the fastest-growing regions in the world. However, with such rapid progress comes the need to carefully calibrate this growth sustainably by taking into account the needs of the environment.
+                ภูมิภาคเอเชียตะวันออกเฉียงใต้ยังคงเป็นหนึ่งในภูมิภาคที่มีการเติบโตรวดเร็วที่สุดในโลก แต่ด้วยการเติบโตอย่างรวดเร็วนี้ ผู้ที่มีส่วนรับผิดชอบจึงจำเป็นต้องควบคุมการเติบโตนี้ในระยะยาวโดยคำนึงถึงความจำเป็นทางด้านสิ่งแวดล้อม
               </p>
             </Col>
           </Row>
@@ -37,15 +37,15 @@ const S01 = () => {
                 </Col>
               </Row>
               <h2>
-                Climate Change Challenges of Southeast Asia
+                ความท้าทายของการเปลี่ยนแปลงทางสภาพอากาศในภูมิภาคเอเชียตะวันออกเฉียงใต้
               </h2>
             </Col>
             <Col xs={{ size: 12 }} md={{ size: 6 }}>
               <p>
-                Southeast Asia makes up about 20% of the world’s biodiversity and 10% of its population. Remaining on course for 4.8% growth in 2021 despite COVID-19, it retains its allure as one of the fastest-growing regions in the world.
+                ภูมิภาคเอเชียตะวันออกเฉียงใต้ เป็นภูมิภาคที่มีความหลากหลายของสิ่งมีชีวิตประมาณร้อยละ 20 และมีประชากรรวมคิดเป็นร้อยละ 10 ของโลก ภูมิภาคเอเชียตะวันออกเฉียงใต้ยังคงเติบโตอย่างต่อเนื่อง โดยคาดว่าจะมีการเติบโต ร้อยละ 4.8ในปี พ.ศ. 2564  แม้จะอยู่ในภาวะการแพร่ระบาดของไวรัสโคโรน่าสายพันธุ์ใหม่ ก็ตาม ทำให้ภูมิภาคเอเชียตะวันออกเฉียงใต้เป็นภูมิภาคที่น่าสนใจ เพราะถือว่ามีการเติบโตเร็วที่สุดในโลก
               </p>
               <p>
-                This growth however, comes with a warning. Southeast Asia’s energy consumption has jumped by more than 80% since 2000 and is expected to double by 2040. Projections reveal an increase in carbon dioxide emissions of about 60% by then.
+                อย่างไรก็ตาม การเติบโตดังกล่าวก็มาพร้อมสัญญาณเตือน การใช้พลังงานในภูมิภาคเอเชียตะวันออกเฉียงใต้เพิ่มสูงขึ้นมากกว่าร้อยละ 80 นับตั้งแต่ปีพ.ศ.2543  และคาดว่าจะเพิ่มขึ้นสองเท่าภายในปีพ.ศ.2583  ภาพรวมบ่งชี้ว่าอัตราการปล่อยคาร์บอนไดออกไซด์จะสูงขึ้นประมาณร้อยละ 60 ภายในปีพ.ศ.2583 
               </p>
               <Row>
                 <Col xs={{ size: 3 }}>

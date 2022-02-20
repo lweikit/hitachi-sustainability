@@ -8,7 +8,7 @@ const S09 = () => {
       <Row>
         <Col xs={{ size: 10, offset: 1 }} md={{ size: 6, offset: 3 }}>
           <h3>
-            Battery-Energy Storage in the Philippines
+            ระบบกักเก็บพลังงานแบตเตอรี่ในประเทศฟิลิปปินส์
           </h3>
           <div className="video-container">
             <iframe src="https://www.youtube-nocookie.com/embed/y7biHnt-v9k" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
@@ -16,7 +16,7 @@ const S09 = () => {
           <Row>
             <Col sm={{ size: 10, offset: 1 }} md={{ size: 12, offset: 0 }}>
               <p>
-                Hitachi and Manila Electric Co have installed a 2MW battery-energy storage system in Bulacan. Modular and movable in 40ft containers, these batteries offer stability for renewable energy sources, especially solar energy, which by nature, fluctuate throughout the day. This allows for the management of peak demand and energy, improved service reliability and power quality, and compensates for the intermittency of renewable energy generation.
+                Hitachi และบริษัท Manila Electric Co ได้ติดตั้งระบบกักเก็บพลังงานแบตเตอรี่ขนาด 2MW ในเมืองบูลาคาน ระบบแบตเตอรี่เป็นแบบแยกส่วนและเคลื่อนย้ายได้ในตู้คอนเทนเนอร์ขนาด 40 ฟุต ให้ความมั่นคงของแหล่งพลังงานหมุนเวียนโดยเฉพาะพลังงานแสงอาทิตย์ ซึ่งโดยธรรมชาติแล้วจะไม่เสถียรตลอดทั้งวันระบบนี้จะช่วยในการจัดการพลังงานและความต้องการใช้เพื่อ เพิ่มความวางใจของบริการและระบบพลังงาน เพื่อชดเชยต่อพลังงานหมุนเวียนที่ไม่เสถียรได้
               </p>
               <Row>
                 <Col xs={{ size: 8, offset: 2 }}>
