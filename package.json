@@ -7,7 +7,13 @@
     "start": "next start",
     "lint": "next lint",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -t"
+    "deploy": "gh-pages -d build -t",
+    "predeploy-id": "next build && next export -o build-id && touch build/.nojekyll",
+    "deploy-id": "gh-pages -d build-id -t -b id",
+    "predeploy-th": "next build && next export -o build-th && touch build/.nojekyll",
+    "deploy-th": "gh-pages -d build-th -t -b th",
+    "predeploy-vn": "next build && next export -o build-vn && touch build/.nojekyll",
+    "deploy-vn": "gh-pages -d build-vn -t -b vn"
   },
   "dependencies": {
     "bootstrap": "^5.1.3",
