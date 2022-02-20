@@ -59,9 +59,9 @@ const S02L = () => {
       </h1>
       <div className={styles.bg} ref={bgRef}>
         <object type="image/svg+xml" data="sections/02/scene-0.svg" className={styles.scene} ref={scene0Ref}/>
-        <object type="image/svg+xml" data="sections/02/stats-1.svg" className={styles.stats} ref={stats1Ref}/>
-        <object type="image/svg+xml" data="sections/02/stats-2.svg" className={styles.stats} ref={stats2Ref}/>
-        <object type="image/svg+xml" data="sections/02/stats-3.svg" className={styles.stats} ref={stats3Ref}/>
+        <object type="image/svg+xml" data="sections/02/id/stats-1.svg" className={styles.stats} ref={stats1Ref}/>
+        <object type="image/svg+xml" data="sections/02/id/stats-2.svg" className={styles.stats} ref={stats2Ref}/>
+        <object type="image/svg+xml" data="sections/02/id/stats-3.svg" className={styles.stats} ref={stats3Ref}/>
       </div>
     </div>
   )
