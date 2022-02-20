@@ -9,10 +9,10 @@ const S03 = () => {
         <Col xs={{ size: 8, offset: 2 }} md={{ size: 6, offset: 3 }}>
           <object type="image/svg+xml" data="sections/03/water.svg" className={styles.svg}/>
           <p>
-            This is a worrying development given the region’s overwhelming dependence on non-renewable sources for primary energy supply.
+            Ini adalah perkembangan yang mengkhawatirkan mengingat ketergantungan berlebihan kawasan ini pada sumber-sumber tidak terbarukan untuk suplai energi primer. 
           </p>
           <p>
-            The people of Southeast Asia have seen first-hand the threat of climate change and environmental degradation, as multiple floods threatened livelihoods in 2021. Without significant changes in the next decade, Southeast Asian nations will incur a loss equivalent to US$22.5 billion in GDP as a result of flooding.
+            Penduduk Asia Tenggara telah menyaksikan sendiri ancaman perubahan iklim dan degradasi lingkungan, karena banyaknya bencana banjir yang mengancam penghidupan di tahun 2021. Tanpa perubahan signifikan pada dekade mendatang, bangsa-bangsa Asia Tenggara akan menelan kerugian yang setara dengan US$22,5 miliar dalam GDP akibat banjir.
           </p>
         </Col>
       </Row>
