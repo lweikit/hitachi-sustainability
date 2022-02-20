@@ -9,10 +9,10 @@ const S03 = () => {
         <Col xs={{ size: 8, offset: 2 }} md={{ size: 6, offset: 3 }}>
           <object type="image/svg+xml" data="sections/03/water.svg" className={styles.svg}/>
           <p>
-            This is a worrying development given the region’s overwhelming dependence on non-renewable sources for primary energy supply.
+            Tất cả cho thấy một thực trạng phát triển đáng lo ngại, đặc biệt khi khu vực này lệ thuộc nặng nề vào nguồn tài nguyên không tái tạo làm nguồn cấp năng lượng chính. 
           </p>
           <p>
-            The people of Southeast Asia have seen first-hand the threat of climate change and environmental degradation, as multiple floods threatened livelihoods in 2021. Without significant changes in the next decade, Southeast Asian nations will incur a loss equivalent to US$22.5 billion in GDP as a result of flooding.
+            Người dân Đông Nam Á đã và đang trực tiếp phải đối mặt với nguy cơ biến đổi khí hậu và môi trường xuống cấp với hàng loạt các cơn lũ lụt đe dọa sinh kế đã xảy ra trong năm 2021. Nếu không có những sự thay đổi đáng kể nào trong thập kỷ tới, các quốc gia Đông Nam Á sẽ phải chịu thiệt hại tương đương ở mức 22,5 tỷ USD trong GDP do hậu quả của lũ lụt.
           </p>
         </Col>
       </Row>

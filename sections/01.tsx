@@ -11,13 +11,13 @@ const S01 = () => {
         </Col>
         <Col xs={{ size: 10, offset: 1 }} md={{ size: 8, offset: 2 }}>
           <h1>
-            SUSTAINABILITY MATTERS IN SOUTHEAST ASIA
+            Vấn đề phát triển bền vững ở Đông Nam Á
           </h1>
           <br/>
           <Row>
             <Col md={{ size: 10, offset: 1 }}>
               <p>
-                Southeast Asia remains poised to be one of the fastest-growing regions in the world. However, with such rapid progress comes the need to carefully calibrate this growth sustainably by taking into account the needs of the environment.
+                Đông Nam Á đã và đang là một trong những khu vực tăng trưởng nhanh nhất thế giới. Tuy nhiên, đi kèm với tốc độ tăng trưởng nhanh chóng này là nhu cầu phải phát triển sao cho bền vững có xét đến các nhu cầu về môi trường.
               </p>
             </Col>
           </Row>
@@ -37,15 +37,15 @@ const S01 = () => {
                 </Col>
               </Row>
               <h2>
-                Climate Change Challenges of Southeast Asia
+                Thách thức biến đổi khí hậu ở Đông Nam Á
               </h2>
             </Col>
             <Col xs={{ size: 12 }} md={{ size: 6 }}>
               <p>
-                Southeast Asia makes up about 20% of the world’s biodiversity and 10% of its population. Remaining on course for 4.8% growth in 2021 despite COVID-19, it retains its allure as one of the fastest-growing regions in the world.
+                Đông Nam Á chiếm khoảng 20% đa dạng sinh học và 10% dân số thế giới. Với đà tăng tưởng vẫn đạt mức 4,8% trong năm 2021 bất chấp đại dịch COVID-19, Đông Nam Á tiếp tục duy trì sức hấp dẫn của mình với tư cách là một trong những khu vực tăng trưởng nhanh nhất trên thế giới.
               </p>
               <p>
-                This growth however, comes with a warning. Southeast Asia’s energy consumption has jumped by more than 80% since 2000 and is expected to double by 2040. Projections reveal an increase in carbon dioxide emissions of about 60% by then.
+                Dù vậy, tốc độ tăng trưởng này đi kèm với một tình hình đáng báo động. Mức tiêu thụ năng lượng của Đông Nam Á đã tăng vọt thêm hơn 80% kể từ năm 2000 và dự kiến sẽ tăng gấp đôi vào trước năm 2040. Các kết quả dự báo cho thấy mức phát thải khí carbon dioxide (CO2) sẽ tăng khoảng 60% tính đến thời điểm đó.
               </p>
               <Row>
                 <Col xs={{ size: 3 }}>
