@@ -11,13 +11,13 @@ const S01 = () => {
         </Col>
         <Col xs={{ size: 10, offset: 1 }} md={{ size: 8, offset: 2 }}>
           <h1>
-            SUSTAINABILITY MATTERS IN SOUTHEAST ASIA
+            Keberlanjutan adalah Hal Penting di Asia Tenggara
           </h1>
           <br/>
           <Row>
             <Col md={{ size: 10, offset: 1 }}>
               <p>
-                Southeast Asia remains poised to be one of the fastest-growing regions in the world. However, with such rapid progress comes the need to carefully calibrate this growth sustainably by taking into account the needs of the environment.
+                Asia Tenggara masih siap menjadi salah satu kawasan dengan pertumbuhan tercepat di dunia. Akan tetapi, dengan kemajuan secepat itu, penting halnya untuk dengan cermat menyesuaikan pertumbuhannya secara berkelanjutan guna mempertimbangkan tuntutan lingkungan.
               </p>
             </Col>
           </Row>
@@ -37,15 +37,15 @@ const S01 = () => {
                 </Col>
               </Row>
               <h2>
-                Climate Change Challenges of Southeast Asia
+                Tantangan perubahan iklim di Asia Tenggara
               </h2>
             </Col>
             <Col xs={{ size: 12 }} md={{ size: 6 }}>
               <p>
-                Southeast Asia makes up about 20% of the world’s biodiversity and 10% of its population. Remaining on course for 4.8% growth in 2021 despite COVID-19, it retains its allure as one of the fastest-growing regions in the world.
+                Asia Tenggara membentuk sekitar 20% dari keragaman hayati dunia dan 10% dari penduduknya. Tetap di jalurnya menuju tingkat pertumbuhan 4,8% di tahun 2021 meskipun ada krisis COVID-19, kawasan ini mempertahankan daya tariknya sebagai salah satu kawasan dengan pertumbuhan tercepat di dunia.
               </p>
               <p>
-                This growth however, comes with a warning. Southeast Asia’s energy consumption has jumped by more than 80% since 2000 and is expected to double by 2040. Projections reveal an increase in carbon dioxide emissions of about 60% by then.
+                Namun, pertumbuhan ini disertai dengan sebuah peringatan. Konsumsi energi Asia Tenggara telah melonjak lebih dari 80% sejak tahun 2000 dan diperkirakan naik dua kali lipat pada tahun 2040. Berbagai proyeksi mengungkap peningkatan dalam emisi karbon dioksida sekitar 60% pada saat itu.
               </p>
               <Row>
                 <Col xs={{ size: 3 }}>

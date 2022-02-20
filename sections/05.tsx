@@ -10,7 +10,7 @@ const S05 = () => {
           <Row>
             <Col xs={{ size: 12 }} md={{ size: 6 }} className={styles.spacing}>
               <h2>
-                Efforts for Sustainability in Southeast Asia
+                Upaya menuju keberlanjutan di Asia Tenggara
               </h2>
             </Col>
             <Col xs={{ size: 12 }} md={{ size: 6 }} className={styles.spacing}>
@@ -24,24 +24,24 @@ const S05 = () => {
           <Row>
             <Col xs={{ size: 12 }} md={{ size: 6 }} className={styles.spacing}>
               <p>
-                Having recognised climate change as a regional threat, all ASEAN nations signed the Paris Agreement. ASEAN followed up with a target of securing 23% of the region’s primary energy from renewable sources by 2025.
+                Setelah mengakui adanya perubahan iklim sebagai ancaman regional, semua bangsa di ASEAN menandatangani Perjanjian Paris. ASEAN menindaklanjutinya dengan target mengamankan 23% dari energi primer di kawasan ini dari sumber-sumber terbarukan pada tahun 2025.
               </p>
               <p>
-                Large payoffs await the region as it pivots to a more sustainable approach. Southeast Asian economies could experience up to US$1 trillion in annual economic opportunities by 2030 from new growth areas for sustainability.
+                Imbalan besar menanti kawasan ini karena berporos ke pendekatan yang lebih berkelanjutan. Ekonomi Asia Tenggara dapat merasakan kesempatan ekonomi tahunan hingga US$1 triliun pada tahun 2030 dari area-area pertumbuhan baru untuk keberlanjutan.
               </p>
               <p>
-                There are multiple ways to unlock the region’s green economy. Transitioning from non-renewable energy into sustainable sources is an ongoing endeavour. Governments in Southeast Asia have prioritised solar power to displace fossil fuel in the most recent development plans – in particular, with rooftop solar power.
+                Ada beberapa cara untuk membuka ekonomi hijau di kawasan ini. Upaya transisi dari energi tidak terbarukan menuju sumber-sumber berkelanjutan tengah berlangsung. Pemerintah di Asia Tenggara telah memprioritaskan tenaga surya untuk menggantikan bahan bakar fosil dalam rencana pembangunan terkininya – khususnya, dengan tenaga surya di atas atap.
               </p>
             </Col>
             <Col xs={{ size: 12 }} md={{ size: 6 }} className={styles.spacing}>
               <p>
-                Improving a nation’s logistics sector to become more efficient plays a key role as well. Digital supply chains, paired with automation and analytics, can help to lower carbon footprints.
+                Peningkatan sektor logistik negara agar menjadi lebih efisien juga memainkan peran penting. Rantai suplai digital, disertai dengan otomatisasi dan analitik, dapat membantu menurunkan emisi karbon.
               </p>
               <p>
-                Using big data to re-invent a city into a green and connected sanctuary plays an important role in the region’s drive for sustainable growth. Southeast Asia is progressing well on this front, with smart cities flourishing in Singapore, Vietnam and Indonesia.
+                Penggunaan data besar untuk ciptakan sebuah kota menjadi tempat perlindungan yang hijau dan terhubung berperan penting dalam mendorong pertumbuhan berkelanjutan di kawasan ini. Asia Tenggara mengalami kemajuan yang baik di bidang ini, dengan menjamurnya kota-kota pintar di Singapura, Vietnam, dan Indonesia.
               </p>
               <p>
-                These initiatives require long term commitment from the public sector as well as the private sector. This push for sustainable growth is a goal that can unite the entire region to improve lives for everyone for decades to come.
+                Inisiatif ini memerlukan komitmen jangka panjang dari sektor publik maupun sektor swasta. Dorongan menuju pertumbuhan berkelanjutan ini merupakan sasaran yang dapat menyatukan seluruh kawasan untuk meningkatkan kehidupan bagi setiap orang dalam beberapa dekade ke depan.
               </p>
             </Col>
           </Row>
