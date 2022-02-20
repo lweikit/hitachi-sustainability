@@ -12,7 +12,7 @@ const S06 = () => {
             ASEAN
           </h1>
           <p className={styles.description}>
-            pledges to secure 23% of the region’s primary energy from renewable sources by 2025
+            cam kết nâng tỷ trọng năng lượng chính có nguồn gốc từ năng lượng tái tạo của khu vực lên 23% trước năm 2025 
           </p>
         </Col>
       </Row>

@@ -10,7 +10,7 @@ const S05 = () => {
           <Row>
             <Col xs={{ size: 12 }} md={{ size: 6 }} className={styles.spacing}>
               <h2>
-                Efforts for Sustainability in Southeast Asia
+                Nỗ lực vì sự bền vững ở Đông Nam Á
               </h2>
             </Col>
             <Col xs={{ size: 12 }} md={{ size: 6 }} className={styles.spacing}>
@@ -24,24 +24,24 @@ const S05 = () => {
           <Row>
             <Col xs={{ size: 12 }} md={{ size: 6 }} className={styles.spacing}>
               <p>
-                Having recognised climate change as a regional threat, all ASEAN nations signed the Paris Agreement. ASEAN followed up with a target of securing 23% of the region’s primary energy from renewable sources by 2025.
+                Nhận định biến đổi khí hậu là mối đe dọa của cả khu vực, tất cả các quốc gia ASEAN đều đã ký kết Hiệp định Paris. ASEAN tiếp tục đặt mục tiêu nâng tỷ trọng năng lượng chính có nguồn gốc từ tài nguyên tái tạo lên 23% vào trước 2025.
               </p>
               <p>
-                Large payoffs await the region as it pivots to a more sustainable approach. Southeast Asian economies could experience up to US$1 trillion in annual economic opportunities by 2030 from new growth areas for sustainability.
+                Nhiều kết quả tích cực đang chờ đón khi khu vực Đông Nam Á bắt đầu đi theo hướng phát triển bền vững hơn. Các nền kinh tế ở khu vực Đông Nam Á mỗi năm có thể sẽ thu về các cơ hội kinh tế trị giá 1 nghìn tỷ USD vào trước năm 2030 từ những lĩnh vực tăng trưởng bền vững mới.
               </p>
               <p>
-                There are multiple ways to unlock the region’s green economy. Transitioning from non-renewable energy into sustainable sources is an ongoing endeavour. Governments in Southeast Asia have prioritised solar power to displace fossil fuel in the most recent development plans – in particular, with rooftop solar power.
+                Có nhiều cách thức để khai phá nền kinh tế xanh của khu vực. Chuyển dịch từ năng lượng không tái tạo sang tài nguyên bền vững là một nỗ lực không ngừng. Trong kế hoạch phát triển mới đây nhất, chính phủ các nước Đông Nam Á đã ưu tiên triển khai năng lượng mặt trời để thay thế nhiên liệu hóa thạch – mà cụ thể là năng lượng mặt trời đặt trên mái nhà.
               </p>
             </Col>
             <Col xs={{ size: 12 }} md={{ size: 6 }} className={styles.spacing}>
               <p>
-                Improving a nation’s logistics sector to become more efficient plays a key role as well. Digital supply chains, paired with automation and analytics, can help to lower carbon footprints.
+                Việc nâng cao hoạt động hiệu quả hơn trong lĩnh vực vận tải của các quốc gia cũng đóng một vai trò quan trọng. Chuỗi cung ứng kỹ thuật số, kết hợp với tự động hóa và phân tích, có thể giúp giảm lượng phát thải cacbon.
               </p>
               <p>
-                Using big data to re-invent a city into a green and connected sanctuary plays an important role in the region’s drive for sustainable growth. Southeast Asia is progressing well on this front, with smart cities flourishing in Singapore, Vietnam and Indonesia.
+                Việc sử dụng dữ liệu lớn để tái cấu trúc tạo nên các thành phố xanh và kết nối cũng đóng vai trò quan trọng, tạo nên động lực phát triển bền vững cho khu vực.Đông Nam Á đang phát triển mạnh mẽ trên lĩnh vực này, với nhiều thành phố thông minh phát triển nhanh chóng ở Singapore, Việt Nam và Indonesia.
               </p>
               <p>
-                These initiatives require long term commitment from the public sector as well as the private sector. This push for sustainable growth is a goal that can unite the entire region to improve lives for everyone for decades to come.
+                Các sáng kiến này đòi hỏi sự cam kết lâu dài từ khu vực công lẫn khu vực tư nhân. Chiến dịch thúc đẩy phát triển bền vững này là một mục tiêu có khả năng đoàn kết toàn bộ khu vực để cùng chung tay nâng cao đời sống cho tất cả người dân trong những thập kỷ tới.
               </p>
             </Col>
           </Row>
