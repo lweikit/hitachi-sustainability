@@ -53,7 +53,7 @@ const S02L = () => {
   });
 
   return (
-    <div className={`${styles.container} ${styles.section2l}`} ref={containerRef}>
+    <div className={styles.container} ref={containerRef}>
       <h1 className={styles.header} ref={headerRef}>
         SOUTHEAST ASIA
       </h1>

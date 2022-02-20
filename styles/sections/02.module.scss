@@ -16,12 +16,6 @@
   text-align: center;
 
   font-style: italic;
-  @include utils.desktop { 
-    font-size: 120px !important; 
-  }
-  @include utils.mobile { 
-    font-size: 28pt !important; 
-  }
 }
 
 .bg {
