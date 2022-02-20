@@ -9,10 +9,10 @@ const S03 = () => {
         <Col xs={{ size: 8, offset: 2 }} md={{ size: 6, offset: 3 }}>
           <object type="image/svg+xml" data="sections/03/water.svg" className={styles.svg}/>
           <p>
-            This is a worrying development given the region’s overwhelming dependence on non-renewable sources for primary energy supply.
+            นี่เป็นการพัฒนาที่ค่อนข้างน่ากังวล เนื่องจากภูมิภาคเอเชียตะวันออกเฉียงใต้ ใช้ แหล่งพลังงานสิ้นเปลืองมากเกินไป ในการใช้เป็นแหล่งจ่ายพลังงานหลัก 
           </p>
           <p>
-            The people of Southeast Asia have seen first-hand the threat of climate change and environmental degradation, as multiple floods threatened livelihoods in 2021. Without significant changes in the next decade, Southeast Asian nations will incur a loss equivalent to US$22.5 billion in GDP as a result of flooding.
+            ประชากรในภูมิภาคเอเชียตะวันออกเฉียงใต้เริ่มมองเห็นภัยคุกคามของการเปลี่ยนแปลงทางสภาพอากาศและการเสื่อมสภาพทางสิ่งแวดล้อมอย่างชัดเจนเนื่องจาก ภัยพิบัติน้ำท่วมในหลายพื้นที่ส่งผลกระทบต่อการดำรงชีวิตในปี พ.ศ. 2564  หากไม่มีการเปลี่ยนแปลงที่สำคัญในช่วงทศวรรษถัดไปนี้ ประเทศในภูมิภาคเอเชียตะวันออกเฉียงใต้จะต้องประสบกับการสูญเสียที่เทียบเท่ากับ 22.5 พันล้านดอลลาร์สหรัฐของค่า GDPอันเป็นผลกระทบจากภัยพิบัติน้ำท่วม
           </p>
         </Col>
       </Row>

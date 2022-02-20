@@ -10,7 +10,7 @@ const S05 = () => {
           <Row>
             <Col xs={{ size: 12 }} md={{ size: 6 }} className={styles.spacing}>
               <h2>
-                Efforts for Sustainability in Southeast Asia
+                ความพยายามในการแก้ไขปัญหาด้านความยั่งยืนในภูมิภาคเอเชียตะวันออกเฉียงใต้
               </h2>
             </Col>
             <Col xs={{ size: 12 }} md={{ size: 6 }} className={styles.spacing}>
@@ -24,24 +24,24 @@ const S05 = () => {
           <Row>
             <Col xs={{ size: 12 }} md={{ size: 6 }} className={styles.spacing}>
               <p>
-                Having recognised climate change as a regional threat, all ASEAN nations signed the Paris Agreement. ASEAN followed up with a target of securing 23% of the region’s primary energy from renewable sources by 2025.
+                การตระหนักถึงการเปลี่ยนแปลงทางสภาพอากาศในฐานะภัยคุกคามระดับภูมิภาค ทำให้ชาติสมาชิกของภูมิภาคอาเซียนทั้งหมดที่ได้ลงนามใน ข้อตกลงปารีส ประเทศในภูมิภาคอาเซียนได้มีเป้าหมายร่วมกันในการเพิ่มแหล่งพลังงานหลัก ของพลังงานหมุนเวียนเป็นร้อยละ 23จากแหล่งพลังงานทั้งหมด ภายในปีพ.ศ. 2568 
               </p>
               <p>
-                Large payoffs await the region as it pivots to a more sustainable approach. Southeast Asian economies could experience up to US$1 trillion in annual economic opportunities by 2030 from new growth areas for sustainability.
+                ภูมิภาคเอเชียตะวันออกเฉียงใต้จะได้รับผลตอบแทนมหาศาลเมื่อเปลี่ยนไปใช้แนวทางที่ยั่งยืนมากขึ้น เศรษฐกิจของภูมิภาคเอเชียตะวันออกเฉียงใต้อาจมีขนาดมูลค่าสูงสุดถึง 1 ล้านล้านดอลลาร์สหรัฐ ต่อปีภายในปีพ.ศ. 2572 จากการเติบโตเพื่อความยั่งยืนในอนาคต
               </p>
               <p>
-                There are multiple ways to unlock the region’s green economy. Transitioning from non-renewable energy into sustainable sources is an ongoing endeavour. Governments in Southeast Asia have prioritised solar power to displace fossil fuel in the most recent development plans – in particular, with rooftop solar power.
+                มีหลายวิธีในการเสริมสร้างศักยภาพทางเศรษฐกิจสีเขียวของภูมิภาคนี้ การเปลี่ยนแปลงจากการใช้พลังงานสิ้นเปลืองมาเป็นแหล่งพลังงานหมุนเวียนเป็นความพยายามที่เกิดขึ้นอย่างต่อเนื่อง รัฐบาลในภูมิภาคเอเชียตะวันออกเฉียงใต้ได้ กำหนดความสำคัญของพลังงานแสงอาทิตย์ เพื่อมาทดแทนเชื้อเพลิงจากฟอสซิล ในแผนพัฒนาล่าสุดโดยเฉพาะโครงการหลังคาพลังงานแสงอาทิตย์
               </p>
             </Col>
             <Col xs={{ size: 12 }} md={{ size: 6 }} className={styles.spacing}>
               <p>
-                Improving a nation’s logistics sector to become more efficient plays a key role as well. Digital supply chains, paired with automation and analytics, can help to lower carbon footprints.
+                การปรับปรุงภาคการขนส่งของประเทศให้มีประสิทธิภาพสูงขึ้น และมีบทบาทที่สำคัญเช่นกัน ห่วงโซ่อุปทานระบบดิจิทัลรวมกับระบบอัตโนมัติและระบบวิเคราะห์สามารถช่วยลดการปล่อยคาร์บอนได้
               </p>
               <p>
-                Using big data to re-invent a city into a green and connected sanctuary plays an important role in the region’s drive for sustainable growth. Southeast Asia is progressing well on this front, with smart cities flourishing in Singapore, Vietnam and Indonesia.
+                การใช้Big Data เพื่อปรับปรุงชุมชนเมืองให้เป็นเมืองสีเขียวและ มีบทบาทสำคัญในการขับเคลื่อนการเติบโตที่ยั่งยืนของภูมิภาค ภูมิภาคเอเชียตะวันออกเฉียงใต้มีความก้าวหน้าที่ดีโดยมีโครงการเมืองอัจฉริยะ ในประเทศสิงคโปร์ ประเทศเวียดนาม และประเทศอินโดนีเซีย
               </p>
               <p>
-                These initiatives require long term commitment from the public sector as well as the private sector. This push for sustainable growth is a goal that can unite the entire region to improve lives for everyone for decades to come.
+                ภาครัฐและภาคเอกชนต้องมุ่งมั่นดำเนินงานในโครงการเหล่านี้ในระยะยาว การผลักดันเพื่อการเติบโตอย่างยั่งยืนนี้ เป็นเป้าหมายที่สามารถทำให้ภูมิภาคเอเชียตะวันออกเฉียงใต้ร่วมมือกันเพื่อปรับปรุงคุณภาพชีวิตของผู้คนในหลายทศวรรษในอนาคตข้างหน้า
               </p>
             </Col>
           </Row>

@@ -55,7 +55,7 @@ const S02L = () => {
   return (
     <div className={styles.container} ref={containerRef}>
       <h1 className={styles.header} ref={headerRef}>
-        SOUTHEAST ASIA
+        ภูมิภาคเอเชียตะวันออกเฉียงใต้
       </h1>
       <div className={styles.bg} ref={bgRef}>
         <object type="image/svg+xml" data="sections/02/scene-0.svg" className={styles.scene} ref={scene0Ref}/>

@@ -9,10 +9,10 @@ const S06 = () => {
       <Row>
         <Col xs={{ size: 8, offset: 2 }} md={{ size: 4, offset: 4 }}>
           <h1 className={styles.header}>
-            ASEAN
+            ภูมิภาคอาเซียน
           </h1>
           <p className={styles.description}>
-            pledges to secure 23% of the region’s primary energy from renewable sources by 2025
+            ให้คำมั่นที่จะเพิ่มแหล่งพลังงานหลักของภูมิภาคจากพลังงานหมุนเวียน เป็นร้อยละ 20 ภายในปีพ.ศ. 2568 
           </p>
         </Col>
       </Row>

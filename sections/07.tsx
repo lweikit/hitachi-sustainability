@@ -10,7 +10,7 @@ const S07 = () => {
           <Row>
             <Col xs={{ size: 12 }} md={{ size: 6 }} className={styles.spacing}>
               <h2>
-                Hitachi Is Committed to Supporting Southeast Asia’s Sustainability Efforts
+                Hitachi ให้คำมั่นในการสนับสนุนความยั่งยืนของภูมิภาคเอเชียตะวันออกเฉียงใต้
               </h2>
               <Row>
                 <Col xs={{ size: 6 }}>
@@ -20,10 +20,10 @@ const S07 = () => {
             </Col>
             <Col xs={{ size: 12 }} md={{ size: 6 }} className={styles.spacing}>
               <p>
-                Hitachi believes in social innovation, continually striving to improve people’s quality of life through innovative technological solutions. It is also the Principal Partner of the 2021 United Nations Climate Change Conference (COP26). In support of the region’s march towards a green society, Hitachi is leading the way from the front.
+                Hitachi เชื่อมั่นในนวัตกรรมเพื่อสังคม เราได้มุ่งมั่นในการปรับปรุงคุณภาพชีวิตขอผู้คนมาอย่างต่อเนื่องผ่านโซลูชันทางเทคโนโลยีเชิงนวัตกรรม นอกจากนี้เรายังเป็นผู้สนับสนุนหลักของโครงการ United Nations Climate Change Conference (COP26) ในปีพ.ศ.2564อีกด้วย Hitachi เป็นผู้นำในการสนับสนุนและพัฒนาสังคมของภูมิภาคไปสู่สังคมสีเขียว
               </p>
               <p>
-                Below are three examples of how Hitachi’s technological offerings make difference:
+                ด้านล่างนี้เป็นตัวอย่างข้อเสนอของ Hitachi ที่สร้างความแตกต่างในบางประเทศของภูมิภาคนี้
               </p>
               <Row>
                 <Col xs={{ size: 3 }}>
