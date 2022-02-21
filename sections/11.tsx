@@ -6,7 +6,7 @@ const S11 = () => {
   return (
     <div className={styles.container}>
       <h3>
-        Want to find out more?
+        ค้นหาเพิ่มเติม
       </h3>
       <div className={styles.cardWrap}>
       {
@@ -21,7 +21,7 @@ const S11 = () => {
       }
       </div>
       <a href="./references/references.pdf">
-        References
+        อ้างอิง
       </a>
     </div>
   )
@@ -29,17 +29,17 @@ const S11 = () => {
 
 const caseConfigs = [
   {
-    description: 'Vehicle-sharing Service in Thailand',
+    description: 'การบริการแบ่งยานพาหนะในประเทศไทย',
     href: 'https://social-innovation.hitachi/en-sg/innovationhub/reduce-carbon-emissions',
     img: 'sections/11/vehicle-sharing-TH.png'
   },
   {
-    description: 'Battery Energy Storage System in the Philippines',
+    description: 'ระบบกักเก็บพลังงานแบตเตอรี่ในประเทศฟิลิปปินส์',
     href: 'https://social-innovation.hitachi/en-sg/solutions/energy/',
     img: 'sections/11/battery-energy-storage-PH.png'
   },
   {
-    description: 'Big Data Analytics in Singapore',
+    description: 'การใช้ระบบวิเคราะห์ Big Dataในประเทศสิงคโปร์',
     href: 'https://social-innovation.hitachi/en-sg/innovationhub/businessinnovations/',
     img: 'sections/11/big-data-analytics-SG.png'
   },
